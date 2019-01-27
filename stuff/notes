@@ -1,0 +1,17 @@
+import functools
+
+# get help 
+help(functools.wraps)
+
+# installing with pip
+python3 -m pip install banknumber # install at system level
+python3 -m pip install --user requests # install at local level
+python3 -m pip list # list currently installed modules 
+python3 -m pip install --upgrade requests # upgrade requests package 
+python3 -m pip uninstall banknumber # uninstall banknumber
+python3 -m pip help install # print out information about the pip install option 
+
+# sift to package index and find what you need to install PyPI (if you don't know what to install to get the job done)
+search for asyncio on PyPI 
+
+
