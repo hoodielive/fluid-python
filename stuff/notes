@@ -12,6 +12,10 @@ python3 -m pip uninstall banknumber # uninstall banknumber
 python3 -m pip help install # print out information about the pip install option 
 
 # sift to package index and find what you need to install PyPI (if you don't know what to install to get the job done)
-search for asyncio on PyPI 
+search for asyncio on PyPI (web interface)
+python3 -m pip search asyncio is faster but compacts search
 
+Note: some packages are not necessarily 'open source' - so verify before using closed source apps
+
+# Making a package 
 
