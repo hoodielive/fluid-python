@@ -25,5 +25,5 @@ print(df1['one'][2])
 print(df1.loc[1][1])
 
 data_dict = {'item1': pd.DataFrame(np.random.randn(4,3)), 'item2': pd.DataFrame(np.random.randn(4,2))}
-data_panel = pd.Panel(data_dict)
+data_panel = pd.Panel.to_frame(data_dict)
 print(data_panel['item2'])
