@@ -1,0 +1,32 @@
+Python recognizes packages 
+Add metadata to a package 
+Import the package 
+
+Packages start their lives as folders on the filesystem:
+  - make them as you would make any other folder
+  - mkdir/create new/ctrl n 
+
+For example:
+  mkdir demopackage 
+  vim demo.py
+  import sys 
+  print(sys.path) -> will show where python will search for packages
+  import demopackage
+
+
+emacs demopackage/__init__.py in order to use from all import * 
+In that file place:
+__all__ = ['foo', 'bar', 'baz']
+
+Module names are variables
+Imports lead to execution of code
+
+Add module inside the package: 
+the name of the file is important because its how you will import them as modules
+
+demopackage/nsdemo
+demopackage/nsdemo/foo.py
+sys.path.append('foo')
+sys.path.append('bar')
+
+from nsdemo import foo, bar
