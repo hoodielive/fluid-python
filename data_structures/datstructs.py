@@ -41,4 +41,5 @@ print(capital_keys)
 
 # tuple comprehension - generator expression to a tuple constructor
 stringfield = tuple(str(x) for x in example_tuple)
+
 print(stringfield)
